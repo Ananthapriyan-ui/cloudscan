@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+
+# Backend .env (NEVER commit secrets)
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+
